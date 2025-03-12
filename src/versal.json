@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@versal/node"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
+}
