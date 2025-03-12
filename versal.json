@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/old-path",
-      "dest": "/new-path"
-    }
-  ]
+  "builds": [{ "src": "./index.js", "use": "@versal/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
