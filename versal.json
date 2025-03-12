@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/old-path",
+      "dest": "/new-path"
+    }
+  ]
+}
