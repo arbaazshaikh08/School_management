@@ -1,0 +1,25 @@
+# School Management API
+
+This project provides a simple Node.js and Express.js-based RESTful API for managing school data using a MySQL database. It supports adding new schools and retrieving a list of schools sorted by proximity to a user's location.
+
+## Features
+
+- Add new schools with name, address, latitude, and longitude
+- Get a list of schools sorted by proximity to a given latitude and longitude
+- Input validation
+- MySQL integration
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MySQL
+- Postman (for API testing)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/school-management-api.git
+cd school-management-api
