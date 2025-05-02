@@ -15,5 +15,5 @@ connectDB()
   }) 
   .catch((err) => {
     console.log("MySQL connection feiled !!!");
-  });
+  }); 
 
