@@ -4,12 +4,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-  },
+    "start": "node src/index.js"
+
+  }, 
   "author": "Arbaj shaikh",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "dependencies": { 
     "axios": "^1.8.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
