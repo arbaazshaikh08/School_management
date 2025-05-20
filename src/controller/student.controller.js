@@ -1,6 +1,6 @@
 import { School } from "../model/school.model.js";
 import { ApiError } from "../utils/ApiError.js";
-import { asyncHandler } from "../utils/Asynchandlar.js";
+import { asyncHandler} from "../utils/AsyncHandlar.js"
 import { ApiResponse } from "../utils/ApiResponce.js";
 import geolib from "geolib";
 
