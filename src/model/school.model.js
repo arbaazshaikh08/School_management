@@ -2,7 +2,7 @@ import { connectDB } from "../db/index.js";
 
 class School {
   static async addSchool(name, address, latitude, longitude) {
-    const connection = await connectDB(); // Connect to the database
+    const connection = await connectDB(); // connect to the database
     const query =
       "INSERT INTO schools (name, address, latitude, longitude) VALUES (?, ?, ?, ?)";
    

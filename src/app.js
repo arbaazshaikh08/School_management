@@ -16,9 +16,11 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
 
+app.get("/", (req, res) => {
+  res.send("Server is live");
+});
 
-
-import StudentRouter from "./Router/student.router.js"
-app.use("/api/v1/Student", StudentRouter)
+import SchoolRouter from "./Router/school.router.js"
+app.use("/api/v1/School", SchoolRouter)
 
 export { app };

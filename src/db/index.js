@@ -1,15 +1,13 @@
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 
-// Load environment variables
 dotenv.config();
 
-let connection; // Declare connection variable
+let connection;
 
 const connectDB = async () => {
   if (!connection) {
     try {
-      // Initialize the connection (no 'const' here to avoid shadowing)
       connection = await mysql.createConnection({
         host: process.env.DB_HOST,
         user: process.env.DB_USER,
@@ -22,11 +20,10 @@ const connectDB = async () => {
       );
     } catch (error) {
       console.error("Error connecting to MySQL:", error);
-      process.exit(1); // Exit with failure
+      process.exit(1);
     }
   }
   return connection;
 };
 
-// Export the connection and the function
-export { connectDB, connection };
+export { connectDB };

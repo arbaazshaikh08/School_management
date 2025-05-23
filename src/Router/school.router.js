@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addSchool, listSchools } from "../controller/student.controller.js";
+import { addSchool, listSchools } from "../controller/school.controller.js";
 
 const router = Router();
 
