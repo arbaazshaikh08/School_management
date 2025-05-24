@@ -16,10 +16,3 @@ This project provides a simple Node.js and Express.js-based RESTful API for mana
 - MySQL
 - Postman (for API testing)
 
-## Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/school-management-api.git
-cd school-management-api
