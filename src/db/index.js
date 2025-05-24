@@ -2,7 +2,7 @@ import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 
 dotenv.config();
-
+ 
 let connection;
 
 const connectDB = async () => {
@@ -23,7 +23,7 @@ const connectDB = async () => {
       process.exit(1);
     }
   }
-  return connection;
+  return connection; 
 };
 
-export { connectDB };
+export { connectDB, connection};
